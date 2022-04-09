@@ -10,7 +10,7 @@ const Hero = () => {
         <p className="mb-4 mb-8">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est tempora obcaecati repellat nam nostrum distinctio dicta! Harum voluptas alias commodi, cum adipisci modi magni distinctio quis accusantium, dolor suscipit est?
         </p>
-        <button className="bg-transparent text-soft-red border border-soft-red px-12 py-2 rounded-md">En savior plus</button>
+        <button className="bg-transparent text-soft-red border border-soft-red hover:text-pale-red hover:bg-soft-red transition-colors px-12 py-2 rounded-md">En savior plus</button>
       </div>
       <div className="hero-image order-1 md:order-2 flex-1">
         <img className="lg:ml-auto" src={require('../assets/pen.png')} alt="pen" />
