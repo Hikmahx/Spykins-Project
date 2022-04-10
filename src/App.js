@@ -3,10 +3,12 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar'
 import houses from './assets/bg-houses.png'
 import Services from './components/Services';
+import Articles from './components/Articles';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div className="App relative font-serif pt-6"> 
+    <div className="App relative font-amiri pt-6"> 
       <Navbar />
       <Hero />
       <main className="" >
@@ -14,7 +16,9 @@ const App = () => {
           <img className="w-full" src={houses} alt="bg-houses" />
         </div>
         <Services />
+        <Articles />
       </main>
+      <Footer />
     </div>
   )
 }
