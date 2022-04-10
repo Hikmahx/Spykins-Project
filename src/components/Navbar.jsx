@@ -11,7 +11,7 @@ const Navbar = () => {
 
 
   return (
-    <header className="container mx-auto px-8 md:px-20 xl:px-32 relative flex items-baseline md:items-center justify-between z-20">
+    <header className="mx-auto px-8 md:px-20 xl:px-32 relative flex items-baseline md:items-center justify-between z-20">
       <div className="logo">
         <a href="/" className="text-base flex items-center">
           <img className="w-4 h-4 m-2" src={require('../assets/logo.png')} alt="barbe and cimon" />
