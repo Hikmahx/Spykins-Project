@@ -11,9 +11,21 @@ const Articles = () => {
         <div className="card bg-white p-8 mr-2 mx-2 lg:ml-0 my-3 lg:my-4 rounded-lg flex-1 max-w-md min-w-md shadow-md hover:shadow-xl cursor-pointer">
           <h3 className="font-bold mb-4">Titre de l'article</h3>
           <div className="details mb-6">
-            <span className="date">18 mars 2021</span>
-            <span className="font-bolder">{'.'}</span>
-            <span className="underline">immobilier</span>
+            <span className="date mr-1">18 mars 2021</span>
+            <span className="font-bolder text-4xl">{'.'}</span>
+            <span className="ml-1 underline">immobilier</span>
+          </div>
+          <p className="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Ipsam nam consequatur perspiciatis, voluptates eveniet perferendis...
+          </p>
+        </div>
+        <div className="card bg-white p-8 mx-2 my-3 lg:my-4 rounded-lg flex-1 max-w-md shadow-md hover:shadow-xl cursor-pointer">
+          <h3 className="font-bold mb-4">Titre de l'article</h3>
+          <div className="details mb-6 overflow-hidden">
+            <span className="date mr-1">18 mars 2021</span>
+            <span className="font-bolder text-4xl">{'.'}</span>
+            <span className="ml-1 underline">immobilier</span>
           </div>
           <p className="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -23,21 +35,9 @@ const Articles = () => {
         <div className="card bg-white p-8 mx-2 my-3 lg:my-4 rounded-lg flex-1 max-w-md shadow-md hover:shadow-xl cursor-pointer">
           <h3 className="font-bold mb-4">Titre de l'article</h3>
           <div className="details mb-6">
-            <span className="date">18 mars 2021</span>
-            <span className="font-bolder">{'.'}</span>
-            <span className="underline">immobilier</span>
-          </div>
-          <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Ipsam nam consequatur perspiciatis, voluptates eveniet perferendis...
-          </p>
-        </div>
-        <div className="card bg-white p-8 mx-2 my-3 lg:my-4 rounded-lg flex-1 max-w-md shadow-md hover:shadow-xl cursor-pointer">
-          <h3 className="font-bold mb-4">Titre de l'article</h3>
-          <div className="details mb-6">
-            <span className="date">18 mars 2021</span>
-            <span className="font-bolder">{'.'}</span>
-            <span className="underline">immobilier</span>
+            <span className="date mr-1">18 mars 2021</span>
+            <span className="font-bolder text-4xl">{'.'}</span>
+            <span className="ml-1 underline">immobilier</span>
           </div>
           <p className="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -47,9 +47,9 @@ const Articles = () => {
         <div className="card bg-white p-8 mx-2 lg:mr-0 lg:ml-2 my-3 lg:my-4 rounded-lg flex-1 max-w-md shadow-md hover:shadow-xl cursor-pointer">
           <h3 className="font-bold mb-4">Titre de l'article</h3>
           <div className="details mb-6">
-            <span className="date">18 mars 2021</span>
-            <span className="font-bolder">{'.'}</span>
-            <span className="underline">immobilier</span>
+            <span className="date mr-1">18 mars 2021</span>
+            <span className="font-bolder text-4xl">{'.'}</span>
+            <span className="ml-1 underline">immobilier</span>
           </div>
           <p className="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
