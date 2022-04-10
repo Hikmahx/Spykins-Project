@@ -13,6 +13,9 @@ module.exports = {
       'white': '#ffffff',
       'black': '#000000'
     },
+    fontFamily: {
+      amiri : ['Amiri', 'san-serif']
+    }
   },
   plugins: [],
 }
