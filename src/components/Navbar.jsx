@@ -24,7 +24,7 @@ const Navbar = () => {
       <nav className={"menu bg-white flex-1 fixed lg:relative top-0 " + (menuToggle? ' -right-full': 'right-0') + " transition-all lg:left-0 pt-28 lg:pt-0 px-8 md:px-20 lg:pr-0 lg:pl-0"}>
         <ul className="flex lg:items-center lg:justify-end uppercase h-screen lg:h-auto flex-col lg:flex-row overflow-hidden">
           <li className="px-2 tracking-wider mx-6 md:mx-3 my-3 md:w-auto text-center">
-            <a href="/" className="hover:text-soft-red transition-colors">A PROPOS</a>
+            <a href="/" className="hover:text-soft-red transition-colors">Á PROPOS</a>
           </li>
           <li className="px-2 tracking-wider mx-6 md:mx-3 my-3 md:w-auto text-center">
             <a href="/" className="hover:text-soft-red transition-colors">NOS SERVICE</a>

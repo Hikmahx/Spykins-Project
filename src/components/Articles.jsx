@@ -8,8 +8,8 @@ const Articles = () => {
         <div className="text-5xl">ARTICLES</div>
       </h2>
       <div className="articles flex flex-col lg:flex-row max-w-md lg:max-w-none mx-auto">
-        <div className="card bg-white p-8 mr-2 mx-2 lg:ml-0 my-3 lg:my-4 rounded-lg flex-1 max-w-md min-w-md">
-          <h3 className="font-bold mb-4">Titre de article</h3>
+        <div className="card bg-white p-8 mr-2 mx-2 lg:ml-0 my-3 lg:my-4 rounded-lg flex-1 max-w-md min-w-md shadow-md hover:shadow-xl cursor-pointer">
+          <h3 className="font-bold mb-4">Titre de l'article</h3>
           <div className="details mb-6">
             <span className="date">18 mars 2021</span>
             <span className="font-bolder">{'.'}</span>
@@ -20,8 +20,8 @@ const Articles = () => {
             Ipsam nam consequatur perspiciatis, voluptates eveniet perferendis...
           </p>
         </div>
-        <div className="card bg-white p-8 mx-2 my-3 lg:my-4 rounded-lg flex-1 max-w-md">
-          <h3 className="font-bold mb-4">Titre de article</h3>
+        <div className="card bg-white p-8 mx-2 my-3 lg:my-4 rounded-lg flex-1 max-w-md shadow-md hover:shadow-xl cursor-pointer">
+          <h3 className="font-bold mb-4">Titre de l'article</h3>
           <div className="details mb-6">
             <span className="date">18 mars 2021</span>
             <span className="font-bolder">{'.'}</span>
@@ -32,8 +32,8 @@ const Articles = () => {
             Ipsam nam consequatur perspiciatis, voluptates eveniet perferendis...
           </p>
         </div>
-        <div className="card bg-white p-8 mx-2 my-3 lg:my-4 rounded-lg flex-1 max-w-md">
-          <h3 className="font-bold mb-4">Titre de article</h3>
+        <div className="card bg-white p-8 mx-2 my-3 lg:my-4 rounded-lg flex-1 max-w-md shadow-md hover:shadow-xl cursor-pointer">
+          <h3 className="font-bold mb-4">Titre de l'article</h3>
           <div className="details mb-6">
             <span className="date">18 mars 2021</span>
             <span className="font-bolder">{'.'}</span>
@@ -44,8 +44,8 @@ const Articles = () => {
             Ipsam nam consequatur perspiciatis, voluptates eveniet perferendis...
           </p>
         </div>
-        <div className="card bg-white p-8 mx-2 lg:mr-0 lg:ml-2 my-3 lg:my-4 rounded-lg flex-1 max-w-md">
-          <h3 className="font-bold mb-4">Titre de article</h3>
+        <div className="card bg-white p-8 mx-2 lg:mr-0 lg:ml-2 my-3 lg:my-4 rounded-lg flex-1 max-w-md shadow-md hover:shadow-xl cursor-pointer">
+          <h3 className="font-bold mb-4">Titre de l'article</h3>
           <div className="details mb-6">
             <span className="date">18 mars 2021</span>
             <span className="font-bolder">{'.'}</span>
